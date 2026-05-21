@@ -8,7 +8,10 @@ from dataclasses import dataclass, fields, asdict
 
 BASE_URL = "https://quotes.toscrape.com/"
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: --- %(message)s ---")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(levelname)s: --- %(message)s ---"
+)
 
 
 @dataclass
