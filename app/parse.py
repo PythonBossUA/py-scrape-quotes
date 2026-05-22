@@ -20,7 +20,7 @@ class Author:
     born: str
     description: str
 
-
+# in README file not say a structure Quote class
 @dataclass
 class Quote:
     text: str
